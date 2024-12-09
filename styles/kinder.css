@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+h1{
+    font-size: 2vw;
+    font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #220121;
+    display: inline-block;
+}
+h2{
+    font-size: 1.4vw;
+    font-family: "Tapestry", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(29, 23, 9);
+    text-align: center;
+    margin: 0;
+    padding: 0 30px 2% 4%;
+}
+  nav li{
+    font-size: 1.4vw;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+p{
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1.4vw;
+    color: rgb(9, 23, 9);
+    text-align: justify;
+    margin: 0;
+    padding: 0 30px 2% 4%;
+}
+* {
+    box-sizing: border-box;
+}
+html, body{
+    background-color: #76577C;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: linear-gradient(to bottom, #D3ABD2,transparent );
+    margin: 4% 20% 0 20%;
+    padding: 2% 2% 4% 2%;
+}
+.logo{
+    text-align: center;
+}
+div.logo img, div.logo h1{
+    vertical-align: middle;
+    justify-content: center;
+}
+.logo-img{
+    display: inline-block;
+    max-width: 15%;
+}
+.img-header{
+    max-width: 20%;
+}
+header > a:hover .logo{
+    display: inline-block;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav{
+    text-align: center;
+    margin:auto;
+}
+nav ul{
+    list-style-type: none;
+    cursor: pointer;
+}
+nav > ul{
+    display: inline-block;
+    width: 100%;
+    margin: 0.5% 0 0 0;
+    padding: 0;
+  }
+nav > ul > li{
+    float: left;
+}
+nav a{
+    display: block;
+}
+.menu1{
+    display: inline-block;
+    width:25%;  
+    background-image: url(../bilder/menu1-blau.png); 
+    padding: 0; 
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain; 
+}
+.menu2{
+    display: inline-block;
+    width:25%;  
+    background-image: url(../bilder/menu1-purple.png); 
+    padding: 0; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain; 
+}
+.menu3{
+    display: inline-block;
+    width:25%;  
+    background-image: url(../bilder/menu1-aqua.png); 
+    padding: 0; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain; 
+}
+.li-a1{
+    display: inline-block;
+    max-width: 100%;
+    margin: auto;  
+    color: rgb(171, 197, 237); 
+    text-align: center;
+    padding: 10% 0;
+}
+.li-a2{
+    display: inline-block;
+    max-width: 100%;
+    margin: auto;  
+    color: rgb(245, 191, 245); 
+    text-align: center;
+    padding: 10% 0;
+}
+.li-a3{
+    display: inline-block;
+    max-width: 100%;
+    margin: auto;  
+    color: rgb(25, 45, 46); 
+    text-align: center;
+    padding: 10% 0;
+}
+.li-a3 a:visited, .li-a3 a{
+    color: rgb(25, 45, 46);
+}
+.li-down{
+    display: none;
+    position: absolute;
+
+}
+.li-a1:hover  .li-down, .li-a2:hover .li-down{
+    display:block;
+}
+.m1-1{
+    background-image: url(../bilder/menu2-green.png);
+    width:200%;  
+    margin: 10% 0 0 -100%;
+    padding: 0; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain; 
+}
+.m1-2{
+    background-image: url(../bilder/menu2-dgreen.png);
+    width:200%;  
+    margin: 0 0 0 -100%;
+    padding: 0; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain; 
+}
+.m1-a1{
+    display: inline-block;
+    max-width: 100%;
+    color: rgb(30, 44, 20); 
+    text-align: center;
+    padding: 10% 0;
+}
+.m1-a2{
+    display: inline-block;
+    max-width: 100%;
+    color: rgb(193, 236, 153); 
+    text-align: center;
+    padding: 10% 0;
+}
+.m2-1{
+    background-image: url(../bilder/menu2-yellow.png);
+    width:175%;  
+    margin: 15% 0 0 0;
+    padding: 0; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain; 
+}
+.m2-2{
+    background-image: url(../bilder/menu2-brown.png);
+    width:180%;  
+    margin: 0 0 0 0;
+    padding: 0; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain; 
+}
+.m2-3{
+    background-image: url(../bilder/menu2-rot.png);
+    width:175%;  
+    margin: 0 0 0 0;
+    padding: 0; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain; 
+}
+.m2-a1{
+    display: inline-block;
+    max-width: 100%;
+    color: rgb(69, 52, 5); 
+    text-align: center;
+    padding: 10% 0;
+}
+.m2-a2{
+    display: inline-block;
+    max-width: 100%;
+    color: rgb(233, 235, 165); 
+    text-align: center;
+    padding: 10% 0;
+}
+.m2-a3{
+    display: inline-block;
+    max-width: 100%;
+    color: rgb(248, 187, 172); 
+    text-align: center;
+    padding: 10% 0;
+}
+main{   
+    background:radial-gradient(ellipse at center, #D19E78, transparent),radial-gradient(ellipse at center, #D19E78, transparent);
+    margin: 0 20%;
+    padding: 5%;
+}
+main > section >  img{
+    padding: 5%;
+    max-width: 50%;
+}
+.lefting{
+    float: left;
+}
+.righting{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+footer{
+    background: linear-gradient(to top, #AC93B9,transparent );
+    padding: 4% 0 0 0;
+    margin: 2% 20% 4% 20%;
+}
+footer p{
+    color: rgb(20, 4, 17);
+    text-align: right;
+    text-align: bottom;
+    margin: 0;
+    padding: 1% 1% 1% 0;
+}
+.row{
+    display: flex;
+    vertical-align: middle;
+    margin-left:  20%;
+    margin-right: 20%;
+}
+.column{
+    margin-left: 0;
+    margin-right: 0;
+}
+footer img{
+    max-width: 75%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
